@@ -6,6 +6,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: 'https://klue.dev',
-  base: 'homepage',
+  // base: 'homepage',
   prefetch: true
 });

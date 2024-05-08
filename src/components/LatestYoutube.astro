@@ -3,8 +3,12 @@
 ---
 
 <script>
+  import type { IframeHTMLAttributes } from "react";
+
   const loader = document.querySelector(".heart__loader");
-  loader.style.display = "block";
+  // loader.style.display = "block";
+    // @ts-ignore
+
   const loadVideo = (iframe) => {
     // Here you need to put your youtube vid. Channel ID
     // My YT channel for example: https://www.youtube.com/channel/UC36_js-krsAHAEAWpEDhHtw
@@ -25,6 +29,8 @@
           `https://youtube.com/embed/${id}?controls=1&autoplay=0`
         );
         // Ocultar el loader después de cargar el video
+          // @ts-ignore
+
         loader.style.display = "none";
       })
       .catch((error) => console.log("error", error));
@@ -41,6 +47,7 @@
 <div class="vid__container">
   <h2 class="vid__title">≥ My latest Video ❤️</h2>
   <img class="heart__loader" src="public/loadcat.gif" alt="loader" />
+  <!-- @ts-ignore -->
   <iframe
     class="latestVideoEmbed"
     vnum="0"

@@ -1,9 +1,9 @@
 const userData = [
   {
-    userName: "Sofia Osorio",
-    userDesc: "Web Developer",
-    userPic: "https://github.com/SofiDevO.png",
-    userPicDark: "/img/pedro_raccon.gif",
+    userName: "KlueDev",
+    userDesc: "Devops Engineer | Fullstack Dev",
+    userPic: "https://avatars.githubusercontent.com/u/66331933?v=4",
+    userPicDark: "https://avatars.githubusercontent.com/u/66331933?v=4",
   },
 ];
 

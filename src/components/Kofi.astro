@@ -11,18 +11,18 @@ import "../css/animations.css"
   };
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 3||
-      document.documentElement.scrollTop > 3
-    ) {
-    tolltipMessage.style.display = "block";
-    tolltipMessage.textContent = "Invítame un café ❤️";
-} else {
-    tolltipMessage.textContent = "Será la próxima Supongo 🥹";
-    setTimeout(() => {
-          tolltipMessage.style.display = "none";
-      }, 4000);
-    }
+    // if (
+    //   document.body.scrollTop > 3||
+    //   document.documentElement.scrollTop > 3
+    // ) {
+    // tolltipMessage.style.display = "block";
+    // tolltipMessage.textContent = "Invítame un café ❤️";
+// } else {
+    // tolltipMessage.textContent = "Será la próxima Supongo 🥹";
+    // setTimeout(() => {
+    //       tolltipMessage.style.display = "none";
+    //   }, 4000);
+    // }
   }
 </script>
 
@@ -71,4 +71,5 @@ import "../css/animations.css"
     background-color: var(--cards);
     padding: .6rem;
     font-size: 1.5rem;
+  }
 </style>
